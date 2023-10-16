@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .img1 {
+      float: right;
+    }
+    .overflow {
+      overflow: hidden;
+      height: 200px;
+      width: 200px;
+      border: 1px solid black;
+      /* background-image: linear-gradient(red,yellow); */
+      /* background-image: url(img/laura-jones.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; */
+      /* background-image: radial-gradient(red,yellow,blue); */
+      background-image: linear-gradient(to bottom right,red,yellow);
+      box-shadow: 5px 5px 5px blue;
+      /* background-image: -webkit-image-set(img/laura-jones.jpg); */
+      
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="clearfix">
+    <img class="img1" src="img/laura-jones.jpg" alt="pictureof a author" width="70px" height="70px">
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, vero?
+  </div>
+  <div class="overflow">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsum molestiae illum velit quod nobis, quas facere perferendis. Dolorem non qui eius consequuntur numquam officiis obcaecati soluta optio cumque in, assumenda similique atque dolores harum accusantium aut fugit fuga explicabo dolore quisquam labore fugiat totam tempora. Sint inventore eos officia quae quo hic cumque perferendis saepe velit numquam molestiae cum enim, unde id pariatur dicta aut ad odio itaque incidunt officiis deserunt tempore. Rerum tempora repudiandae exercitationem similique, quo esse beatae, ex aut obcaecati consequuntur cum eaque rem dolor repellendus, pariatur iure omnis non mollitia laboriosam aspernatur nobis ad natus.
+  </div>
+</body>
+</html>

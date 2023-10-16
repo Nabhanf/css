@@ -1,0 +1,56 @@
+div {
+  background-color: rgb(161, 201, 15);
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  background-color: antiquewhite;
+}
+
+#intro-id {
+  background-color: aqua;
+  height: 100px;
+  width: 250px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.intro-class {
+  background-color: blueviolet;
+  color: black;
+  width: 500px;
+  height: 300px;
+  font-size: 100px;
+}
+
+div h1 {
+  background-color: aquamarine;
+  color: beige;
+  font-family: sans-serif;
+}
+
+div p {
+  color: brown;
+  background-color: rgb(100, 214, 19);
+}
+
+ul li {
+  height: 50px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.pseudo-class {
+  background-color: blanchedalmond;
+  width: 75%;
+  height: fit-content;
+}
+
+ul li:hover {
+  background-color: greenyellow;
+}
+
+p::first-letter {
+  color: rgb(68, 0, 255);
+}

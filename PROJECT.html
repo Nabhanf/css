@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        color: red;
+      }
+      .highlight {
+        color: yellow;
+      }
+      #header {
+        background-color: blue;
+        text-align: center;
+      }
+
+      /* ul {
+        color: yellow;
+      } */
+
+      div ul li {
+        color: green;
+      }
+
+      a:hover {
+        color: purple;
+        text-decoration: underline;
+      }
+
+      ol li:nth-child(3n) {
+        background-color: lightgrey;
+      }
+
+      li a {
+        font-size: 18px;
+      }
+      ol li {
+        color: green;
+      }
+
+      button[type="submit"] {
+        background-color: orange;
+      }
+      p.summary::after {
+        content: "Read more";
+        font-weight: bold;
+        color: blue;
+      }
+
+      input:focus {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="header">PROJECT</h1>
+    <div class="highlight">This is a class selector</div>
+    <p class="summary">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod,
+      facilis iste suscipit numquam omnis.
+    </p>
+    <div>
+      <ul>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href=""> about</a>
+        </li>
+        <li>
+          <a href=""> menu</a>
+        </li>
+      </ul>
+      <ol>
+        <li>html</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>python</li>
+      </ol>
+    </div>
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="password" />
+    <button type="submit">Submit</button>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #parent {
+      position: static;
+      width: 300px;
+      height: 100px;
+      border: 1px solid black;
+      
+    }
+
+    #child-1 {
+      position: absolute;
+      border: 1px solid red;
+      top: 25px;
+      right: 15px;
+    }
+    #parent-2 {
+      position: relative;
+      width: 300px;
+      height: 100px;
+      border: 1px solid black;
+      
+    }
+
+    #child-2 {
+      position: absolute;
+      border: 1px solid red;
+      top: 52px;
+      right: 50px;
+    
+    }
+    #parent-3 {
+      position: absolute;
+      width: 300px;
+      height: 100px;
+      border: 1px solid black;
+      bottom: 0;
+      right: 0;
+      
+    }
+
+    #child-3 {
+      position: absolute;
+      border: 1px solid red;
+      top: 20px;
+      right: 50px;
+    
+    }
+    #parent-4 {
+      position: fixed;
+      width: 300px;
+      height: 100px;
+      border: 1px solid black;
+      bottom: 0;
+      left: 0;
+      
+    }
+
+    #child-4 {
+      position: absolute;
+      border: 1px solid red;
+      top: 20px;
+      right: 50px;
+    
+    }
+    .sticky {
+      position: sticky;
+      top: 0;
+      height: 50px;
+      width: 100%;
+      background-color: blue;
+    }
+
+    #parent-5 {
+      position: static;
+      width: 300px;
+      height: 100px;
+      border: 1px solid black;
+      
+      
+    }
+
+    #child-5 {
+      position: relative;
+      border: 1px solid red;
+    
+    
+      
+    }
+  </style>
+</head>
+<body>
+  <div id="parent">
+    parent-1 position static
+    <div id="child-1">
+      child-1
+    </div>
+  </div>
+
+  <div class="sticky">
+    this is sticky tag
+  </div>
+
+  <div id="parent-2">
+    parent-2 position static
+    <div id="child-2">
+      child
+    </div>
+  </div>
+  
+  <div id="parent-3">
+    position static
+    <div id="child-3">
+      child
+    </div>
+  </div>
+
+  <div id="parent-4">
+    parent-4
+    <div id="child-4">
+      child
+    </div>
+  </div>
+  <p>
+lorem1000
+  </p>\
+
+  <div id="parent-5">
+    parent-5
+    <div id="child-5">
+      child
+    </div>
+  </div>
+
+  </body>
+</html>
